@@ -1,0 +1,4 @@
+<ng-container *ngIf="qlikAppNames$ | async as qlikAppNames">
+  <app-banner [title]="'QlikApp Names'" [appNames]="qlikAppNames"></app-banner>
+
+</ng-container>
